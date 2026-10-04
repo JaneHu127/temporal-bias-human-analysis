@@ -69,6 +69,10 @@ Analysis outputs are written to a locally created `results/` directory and are n
 
 The group-level CSV files contain all trial rows for a sample. The `individual_data/` directories provide the same data separated by participant. Participant tables contain de-identified subject IDs and demographic variables.
 
+### Reaction-time analysis
+
+`participant_rt_summary.csv` contains participant-level reaction-time (RT) summaries. For the final RT comparison between the behavioral replication group and the no-encoding control group, control participants `sub-01` and `sub-03` were excluded because they had only 5 and 12 trials with valid RT values, respectively, out of 240 trials each. The final RT t-test therefore included 30 participants from the behavioral replication group and 7 participants from the control group. This exclusion applied only to the RT analysis.
+
 ### Main behavioral variables
 
 - `subject`, `trial`, `run` or `block`: participant and trial identifiers;
@@ -161,7 +165,9 @@ The first script calculates participant-level and group-level early-versus-late 
 
 ## fMRI analysis
 
-The MRI scripts are supplied for transparency, but the MRI images and derived SPM files are not distributed in this repository. Before running the scripts, place the local dataset in the expected BIDS-like structure and set `bids_root` consistently in each MATLAB file.
+The MRI analysis scripts are provided in this repository for transparency and reproducibility. The MRI dataset is hosted separately on OSF and is not included in this GitHub repository. Before running the scripts, download the dataset from OSF, place it in the expected BIDS-like directory structure, and set `bids_root` consistently in each MATLAB file.
+
+MRI data: [https://osf.io/ykf6t/overview?view_only=1db9399773d247e7b4feae9dced83510]
 
 An expected subject layout is:
 
