@@ -7,11 +7,11 @@ This folder contains the stimulus materials used in the temporal reconstruction 
 ```text
 stimuli/
 ├── videos/
-└── triplets/
+└── frame_sets/
 ```
 
 - `videos/` contains the video clips used in the experiment.
-- `triplets/` contains the image stimuli used in the temporal reconstruction trials.
+- `frame_sets/` contains the image stimuli used in the temporal reconstruction trials.
 
 ## Video stimuli
 
