@@ -1,23 +1,19 @@
 # Stimuli
 
-This folder contains the stimulus materials used in the temporal reconstruction experiment, including the original video stimuli and the image triplets used in the temporal-location reconstruction task.
+This folder contains the image stimuli used in the temporal reconstruction experiment.
+
+The original video stimuli are not included in this repository due to file-size limitations.
 
 ## Folder structure
 
 ```text
 stimuli/
-├── videos/
 └── frame_sets/
 ```
 
 - `videos/` contains the video clips used in the experiment.
 - `frame_sets/` contains the image stimuli used in the temporal reconstruction trials.
 
-## Video stimuli
-
-The `videos/` folder contains the video clips used in the experiment.
-
-Frames extracted from these videos were used to construct the triplet stimuli for the temporal reconstruction task. Each triplet consisted of a **start frame**, a **target frame**, and an **end frame**.
 
 ## Triplet stimuli
 
